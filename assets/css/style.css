@@ -338,13 +338,13 @@ span {
   border-radius: 10px;
   margin-bottom: 50px;
 }
-.left-coma img {
+.left-comma img {
   width: 30px;
 }
-.right-coma {
+.right-comma {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.right-coma img {
+.right-comma img {
   width: 30px;
 }
 .dash-wrap {
