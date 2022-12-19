@@ -126,11 +126,9 @@ p {
 
 /* =============== Hero Section  ============== */
 .hero-section {
+  background: #539d8b;
   margin-top: 15px;
-  background: url(../images/Slicing/bg-hero.png) no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  padding: 135px 0;
+  padding: 135px 0 30px 0;
 }
 .h1-main {
   font-weight: 800;
@@ -160,7 +158,7 @@ span {
 
 /* =============== security expertise Section  ============== */
 .security-expertise {
-  padding: 110px 0;
+  padding: 75px 0 20px 0;
 }
 .center-40 {
   width: 100%;
@@ -278,7 +276,7 @@ span {
 
 /* =============== usable security Section  ============== */
 .usable-security {
-  padding: 90px 0;
+  padding: 40px 0 20px 0;
   background: url(../images/Slicing/waves-bg.png) no-repeat;
   background-size: cover;
   background-position: top center;
@@ -297,6 +295,7 @@ span {
   font-weight: 500;
 }
 .img-ellipse-wrapper {
+  display: none;
   position: relative;
   width: 100%;
   height: 567.47px;
@@ -324,7 +323,7 @@ span {
 
 /* =============== customer success Section  ============== */
 .customer-success {
-  padding: 120px 0 30px 0;
+  padding: 20px 0 30px 0;
   background-color: #fdfefe;
   background-image: url(../images/Slicing/Footer-banner.png);
   background-repeat: no-repeat;
@@ -333,11 +332,11 @@ span {
 }
 .customer-slider {
   position: relative;
-  padding: 44px 78px;
+  padding: 15px 78px 20px 78px;
   background: #ffffff;
   box-shadow: 20px 30px 80px rgba(145, 145, 145, 0.1);
   border-radius: 10px;
-  margin-bottom: 64px;
+  margin-bottom: 50px;
 }
 .left-coma img {
   width: 30px;
@@ -375,7 +374,7 @@ span {
 .customer-message {
   font-style: italic;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 35px;
   /* or 181% */
   text-align: center;
@@ -396,6 +395,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 15px;
 }
 .footer-text span {
   margin: 0 10px;
@@ -422,7 +422,7 @@ span {
   height: 60px;
   border-radius: 100%;
   right: calc(50% - 80px);
-  top: calc(100% - 80px);
+  top: calc(100% - 65px);
   transition: 0.3s ease;
 }
 .mySwiper .swiper-button-next:hover {
@@ -441,7 +441,7 @@ span {
   height: 60px;
   border-radius: 100%;
   left: calc(50% - 80px);
-  top: calc(100% - 80px);
+  top: calc(100% - 65px);
   transition: 0.3s ease;
 }
 .mySwiper .swiper-button-prev:hover {
@@ -473,10 +473,12 @@ span {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
 .footer-text {
   flex-wrap: wrap;
   margin-bottom: 20px;
+}
+footer#customer {
+  padding-top: 70px;
 }
 /* =============== customer success Section  ============== */
 
@@ -490,6 +492,10 @@ span {
   }
   .hero-section {
     padding: 150px 0;
+    background: transparent;
+    background: url(../images/Slicing/bg-hero.png) no-repeat;
+    background-size: cover;
+    background-position: bottom center;
   }
   .center-40 {
     width: 40%;
@@ -501,6 +507,7 @@ span {
     display: none;
   }
   .img-ellipse-wrapper {
+    display: block;
     position: relative;
     width: 100%;
     height: 567.47px;
@@ -524,8 +531,8 @@ span {
     line-height: 73px;
   }
   .customer-message {
-    font-size: 22px;
-    line-height: 47px;
+    font-size: 18px;
+    line-height: 36px;
   }
   .footer-text {
     margin-bottom: 0;
@@ -580,7 +587,7 @@ span {
     float: right;
   }
   .hero-section {
-    padding: 75px 0;
+    padding: 155px 0;
   }
   .hero-section {
     margin-top: 75px;
