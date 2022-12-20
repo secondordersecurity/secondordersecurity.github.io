@@ -485,7 +485,6 @@ footer#customer {
 }
 /* =============== customer success Section  ============== */
 
-/* =============== Media Queries  ============== */
 /* =============== for medium screens  ============== */
 @media screen and (min-width: 992px) {
   .hero-inner-img {
@@ -520,6 +519,7 @@ footer#customer {
     border-radius: 10px;
     width: 100%;
     height: 567.47px;
+    display: block;
   }
   .footer-logo img {
     width: 100%;
@@ -559,18 +559,19 @@ footer#customer {
   }
   .img-ellipse-wrapper {
     position: relative;
-    width: 532.49px;
+    width: 567.47px;
     height: 567.47px;
     float: right;
   }
   .img-ellipse-wrapper img {
     border-radius: 10px;
-    width: 532.49px;
+    width: 567.47px;
     height: 567.47px;
     position: absolute;
     right: 0;
     top: 0;
     z-index: 2;
+    display: block;
   }
   .ellipse img {
     width: 100%;
